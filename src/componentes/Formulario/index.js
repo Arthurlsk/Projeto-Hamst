@@ -35,7 +35,7 @@ const Formulario = () => {
                 <input className='input'
                     {...register("nome")}
                 />
-                <span>{errors.nome?.message}</span>
+                <span className='span'>{errors.nome?.message}</span>
                
 
             </label>
