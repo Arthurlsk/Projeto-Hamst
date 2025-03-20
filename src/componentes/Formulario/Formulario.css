@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.span{
+    color: red;
+    margin-top: 5px;
+}
+.input{
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+}
